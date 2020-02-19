@@ -51,7 +51,7 @@ mkdocs-pandoc==0.2.6
 nbconvert==5.4.0
 nbformat==4.4.0
 nose==1.3.7
-notebook==5.7.4
+notebook==5.7.8
 numpy==1.15.4
 packaging==19.0
 pandas==0.23.4
