@@ -1,0 +1,16 @@
+{
+  "userName": "lol",
+  "userPoolId": "4",
+  "callerContext": {
+    "clientId": "77"
+  },
+  "request": {
+    "userAttributes": {
+      "sub": "9",
+      "email": "eli@gmail.com",
+      "custom:City": "Los Angeles, CA",
+      "custom:Occupation": "Designer",
+      "custom:Income": 100000
+    }
+  }
+}

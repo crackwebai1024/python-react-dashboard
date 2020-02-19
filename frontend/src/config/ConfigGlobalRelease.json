@@ -1,0 +1,7 @@
+{
+  "apiServicesUrlBase": "http://painless-backend.rmmahaaf2t.us-west-2.elasticbeanstalk.com",
+  "PLAID_ENV": "sandbox",
+  "PLAID_CLIENT_ID": "5be83d9fd4530d0014d4a287",
+  "PLAID_PUBLIC_KEY": "5a051f20478de47fc55b0e33ffa325",
+  "PLAID_SECRET": "5a051f20478de47fc55b0e33ffa325"
+}

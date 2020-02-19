@@ -1,0 +1,75 @@
+{
+  "name": "peerspend",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^1.11.1",
+    "@devexpress/dx-react-chart-material-ui": "^1.11.1",
+    "@devexpress/dx-react-core": "^1.11.1",
+    "@hydrogenapi/react-components": "^1.0.3",
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.19",
+    "@material-ui/styles": "^4.1.2",
+    "@types/d3-scale": "^2.1.1",
+    "@types/lodash": "^4.14.149",
+    "@types/material-ui": "^0.21.5",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-plaid-link": "^1.3.0",
+    "@types/react-router-dom": "^4.3.0",
+    "@types/styled-components": "^4.4.2",
+    "aws-amplify": "^1.1.35",
+    "aws-amplify-react": "^2.3.12",
+    "classnames": "^2.2.6",
+    "cognito-express": "^2.0.15",
+    "disqus-react": "^1.0.7",
+    "http-status-codes": "^1.3.2",
+    "lodash": "^4.17.15",
+    "material-table": "^1.40.0",
+    "material-ui": "^0.20.2",
+    "moment": "^2.24.0",
+    "plaid": "^4.3.0",
+    "react": "^16.8.6",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-event-timeline": "^1.6.3",
+    "react-minimal-pie-chart": "^6.0.1",
+    "react-plaid-link": "^1.5.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "styled-components": "^5.0.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://social-spending --acl public-read",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

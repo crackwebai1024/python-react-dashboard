@@ -1,0 +1,33 @@
+{
+  "body": {
+    "title": "new habits",
+    "sub": "2bf62902-489c-49c2-94f7-2e14be9016b0",
+    "transactions": [
+      {
+        "name": "donuts",
+        "date": "2020-01-20",
+        "amount": "222",
+        "category": "shops",
+        "notes": "a big shopping spree",
+        "payment_channel": "online"
+      },
+      {
+        "name": "nutella",
+        "date": "2020-01-20",
+        "amount": "9",
+        "category": "shops",
+        "notes": "a big shopping spree",
+        "payment_channel": "online"
+      },
+      {
+        "name": "plumbing",
+        "date": "2020-01-20",
+
+        "amount": "27",
+        "category": "shops",
+        "notes": "a big shopping spree",
+        "payment_channel": "online"
+      }
+    ]
+  }
+}

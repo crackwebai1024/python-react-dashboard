@@ -1,0 +1,17 @@
+{
+  "name": "social-spending",
+  "version": "1.0.0",
+  "description": "This is the template we use when developing new serverless python code on AWS. It includes a number of basic but simple improvements to the standard `aws-python3` template that serverless offers out of the box:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-python-requirements": "^5.0.1"
+  }
+}
